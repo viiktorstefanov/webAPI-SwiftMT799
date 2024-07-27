@@ -18,6 +18,8 @@ try
 
     var app = builder.Build();
 
+    Database.InitializeDatabase();
+
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
     {

@@ -1,0 +1,32 @@
+2024-07-27 21:55:31.0683|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-27 21:55:31.0683|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-27 21:55:31.0683|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-27 21:55:31.0683|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-27 21:55:31.0683|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-27 22:10:28.4416|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-27 22:10:28.4416|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-27 22:10:28.4416|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-27 22:10:28.4416|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-27 22:10:28.4416|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-27 22:10:35.2545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger - - -
+2024-07-27 22:10:35.3344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger - 301 0 - 81.9027ms
+2024-07-27 22:10:35.3344|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-27 22:10:35.3821|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 44.9696ms
+2024-07-27 22:10:35.3980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - -
+2024-07-27 22:10:35.3980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui-standalone-preset.js - - -
+2024-07-27 22:10:35.3980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui-bundle.js - - -
+2024-07-27 22:10:35.3980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-27 22:10:35.3980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-27 22:10:35.3980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 7.7461ms
+2024-07-27 22:10:35.4226|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-27 22:10:35.4226|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-27 22:10:35.4226|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 25.6890ms
+2024-07-27 22:10:35.4226|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - 200 143943 text/css 25.8734ms
+2024-07-27 22:10:35.4226|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-27 22:10:35.4226|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 27.4256ms
+2024-07-27 22:10:35.5157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 117.2593ms
+2024-07-27 22:10:35.5157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-27 22:10:35.5157|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-27 22:10:35.5157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 200 665 image/png 0.6849ms
+2024-07-27 22:10:35.5420|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-27 22:10:35.5956|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 53.7301ms
