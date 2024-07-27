@@ -46,6 +46,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
