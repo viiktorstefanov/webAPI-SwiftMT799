@@ -30,3 +30,152 @@
 2024-07-27 22:10:35.5157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 200 665 image/png 0.6849ms
 2024-07-27 22:10:35.5420|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
 2024-07-27 22:10:35.5956|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 53.7301ms
+2024-07-27 22:53:15.2797|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-27 22:53:15.2924|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-27 22:53:15.2924|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-27 22:53:15.2924|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-27 22:53:15.2924|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-27 22:53:16.0554|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-27 22:53:16.2066|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 154.0609ms
+2024-07-27 22:53:16.2239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - -
+2024-07-27 22:53:16.2239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-27 22:53:16.2239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-27 22:53:16.2239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 7.5929ms
+2024-07-27 22:53:16.2239|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-27 22:53:16.2239|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - 499 143943 text/css 14.3350ms
+2024-07-27 22:53:16.3122|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 88.1178ms
+2024-07-27 22:53:16.3349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-27 22:53:16.3349|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-27 22:53:16.3349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 2.2508ms
+2024-07-27 22:53:16.3644|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-27 22:53:16.4148|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 50.5722ms
+2024-07-27 22:55:56.6961|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/Message/upload - multipart/form-data;+boundary=--------------------------910970225822326265474344 903
+2024-07-27 22:55:56.6961|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/Message/upload - 404 0 - 5.4932ms
+2024-07-27 22:55:56.6961|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7113/Message/upload, Response status code: 404
+2024-07-27 22:55:56.6961|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5EEN0KPNT2", Request id "0HN5EEN0KPNT2:00000001": the application completed without reading the entire request body.
+2024-07-27 22:56:20.0512|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/upload - multipart/form-data;+boundary=--------------------------870068898399604456143720 903
+2024-07-27 22:56:20.0517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/upload - 404 0 - 0.5158ms
+2024-07-27 22:56:20.0517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7113/upload, Response status code: 404
+2024-07-27 22:56:20.0517|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5EEN0KPNT2", Request id "0HN5EEN0KPNT2:00000002": the application completed without reading the entire request body.
+2024-07-27 22:56:42.2495|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------193495716613335278221143237155 888
+2024-07-27 22:56:42.2495|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 22:56:42.2661|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 22:56:42.2835|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 22:56:42.2964|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 27.336ms
+2024-07-27 22:56:42.2964|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 22:56:42.2964|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 47.1797ms
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------1009358016152415390276134886 874
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 1.0896ms
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 22:56:45.4854|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 1.8551ms
+2024-07-27 22:57:58.5256|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-27 22:57:58.5377|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-27 22:57:58.5377|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-27 22:57:58.5377|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-27 22:57:58.5377|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-27 22:57:58.9519|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-27 22:57:59.0907|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 141.2806ms
+2024-07-27 22:57:59.1442|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-27 22:57:59.1488|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 4.5464ms
+2024-07-27 22:57:59.1488|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-27 22:57:59.1788|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 28.6288ms
+2024-07-27 22:57:59.2762|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-27 22:57:59.3279|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 51.6735ms
+2024-07-27 22:59:54.4585|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-27 22:59:54.4585|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-27 22:59:54.4585|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-27 22:59:54.4585|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-27 22:59:54.4585|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-27 22:59:55.0590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-27 22:59:55.1943|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 138.2373ms
+2024-07-27 22:59:55.2207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-27 22:59:55.2207|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-27 22:59:55.2307|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 9.9312ms
+2024-07-27 22:59:55.2594|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 36.4946ms
+2024-07-27 22:59:55.3579|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-27 22:59:55.4178|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 59.8537ms
+2024-07-27 23:00:52.2648|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------209605966821292320340394953 879
+2024-07-27 23:00:52.2648|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:00:52.2827|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:00:52.3022|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 23:00:52.3176|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 30.1387ms
+2024-07-27 23:00:52.3176|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:00:52.3176|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 53.0599ms
+2024-07-27 23:01:27.5864|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/Message/upload - multipart/form-data;+boundary=--------------------------012808419049404478761930 904
+2024-07-27 23:01:27.5864|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/Message/upload - 404 0 - 1.0845ms
+2024-07-27 23:01:27.5864|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7113/Message/upload, Response status code: 404
+2024-07-27 23:01:27.5864|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5EEQNHQC47", Request id "0HN5EEQNHQC47:00000001": the application completed without reading the entire request body.
+2024-07-27 23:01:40.1103|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/Message/upload - multipart/form-data;+boundary=--------------------------325371687186938359498145 904
+2024-07-27 23:01:40.1103|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/Message/upload - 404 0 - 0.3637ms
+2024-07-27 23:01:40.1103|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7113/Message/upload, Response status code: 404
+2024-07-27 23:01:40.1103|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5EEQNHQC47", Request id "0HN5EEQNHQC47:00000002": the application completed without reading the entire request body.
+2024-07-27 23:01:42.4731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/Message/upload - multipart/form-data;+boundary=--------------------------602111184818454644051379 904
+2024-07-27 23:01:42.4731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/Message/upload - 404 0 - 0.3425ms
+2024-07-27 23:01:42.4731|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7113/Message/upload, Response status code: 404
+2024-07-27 23:01:42.4731|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5EEQNHQC47", Request id "0HN5EEQNHQC47:00000003": the application completed without reading the entire request body.
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data 0
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 0.917ms
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:03:42.6802|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 3.2576ms
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data 0
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 0.3605ms
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:03:47.2944|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 1.0142ms
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=--------------------------014209256972192799883416 904
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 1.5636ms
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:04:01.2416|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 2.4281ms
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=--------------------------910713131574083608727496 907
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:04:20.7095|INFO|MessageController|Message saved successfully.
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 11.9348ms
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:04:20.7095|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 12.5142ms
+2024-07-27 23:09:57.2450|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-27 23:09:57.2553|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-27 23:09:57.2553|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-27 23:09:57.2553|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-27 23:09:57.2553|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-27 23:09:57.5732|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-27 23:09:57.6627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 89.0025ms
+2024-07-27 23:09:57.6627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - -
+2024-07-27 23:09:57.6627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-27 23:09:57.6774|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 2.1655ms
+2024-07-27 23:09:57.6774|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-27 23:09:57.6774|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-27 23:09:57.6774|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - 499 143943 text/css 6.3274ms
+2024-07-27 23:09:57.6933|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 14.9828ms
+2024-07-27 23:09:57.7316|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-27 23:09:57.7316|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-27 23:09:57.7316|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 1.6247ms
+2024-07-27 23:09:57.7572|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-27 23:09:57.7949|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 37.7297ms
+2024-07-27 23:10:04.8951|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------1638212357887799336859959758 874
+2024-07-27 23:10:04.8951|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:10:04.8951|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:10:04.9208|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-27 23:10:04.9330|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 21.3652ms
+2024-07-27 23:10:04.9330|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:10:04.9330|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 38.2195ms
+2024-07-27 23:10:11.8053|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=--------------------------311380398078021347497798 907
+2024-07-27 23:10:11.8053|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:10:11.8053|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-27 23:10:11.8053|INFO|MessageController|Message saved successfully.
+2024-07-27 23:10:11.8053|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-27 23:10:11.8171|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 11.3092ms
+2024-07-27 23:10:11.8171|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-27 23:10:11.8171|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 12.1240ms
