@@ -18,7 +18,7 @@ public class MessageController : ControllerBase
     }
 
     [HttpPost("upload")]
-    public async Task<IActionResult> UploadMessage([FromForm] IFormFile file)
+    public async Task<IActionResult> UploadMessage(IFormFile file)
     {
         if (file == null || file.Length == 0)
         {
