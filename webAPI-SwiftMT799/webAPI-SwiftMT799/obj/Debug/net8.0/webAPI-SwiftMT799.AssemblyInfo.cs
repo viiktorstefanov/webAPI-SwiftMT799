@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("webAPI-SwiftMT799")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f080f7a55ca096bfac2579347cc70d44d07882ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f451414109a2a7082bfead4110484123f2956d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("webAPI-SwiftMT799")]
 [assembly: System.Reflection.AssemblyTitleAttribute("webAPI-SwiftMT799")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

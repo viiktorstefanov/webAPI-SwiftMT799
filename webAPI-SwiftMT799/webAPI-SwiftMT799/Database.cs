@@ -1,5 +1,6 @@
 ﻿using Microsoft.Data.Sqlite;
 using System;
+using static MessageController;
 
 public static class Database
 {
@@ -14,18 +15,31 @@ public static class Database
             var command = connection.CreateCommand();
             command.CommandText = @"
             CREATE TABLE IF NOT EXISTS Messages (
-                Id INTEGER PRIMARY KEY AUTOINCREMENT,
-                Block1 TEXT,
-                Block2 TEXT,
-                Block4 TEXT,
-                Block5 TEXT,
-                CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+                MessageID INTEGER PRIMARY KEY AUTOINCREMENT,
+                TypeOfMessage TEXT,
+                ServiceLevel TEXT,
+                BIC TEXT,
+                SessionNumber TEXT,
+                SequenceNumber TEXT,
+                MessageDirection TEXT,
+                MessageType TEXT,
+                ReceiverBIC TEXT,
+                SenderBIC TEXT,
+                AppHeaderSessionNumber TEXT,
+                AppHeaderSequenceNumber TEXT,
+                MessagePriority TEXT,
+                TransactionRef TEXT,
+                RelatedRef TEXT,
+                MessageText TEXT,
+                Checksum TEXT,
+                DigitalSignature TEXT,
+                Timestamp TEXT
             )";
             command.ExecuteNonQuery();
         }
     }
 
-    public static void SaveMessage(string block1, string block2, string block4, string block5)
+    public static void SaveMessage(MessageEntity messageEntity)
     {
         using (var connection = new SqliteConnection(ConnectionString))
         {
@@ -33,13 +47,67 @@ public static class Database
 
             var command = connection.CreateCommand();
             command.CommandText = @"
-            INSERT INTO Messages (Block1, Block2, Block4, Block5)
-            VALUES ($block1, $block2, $block4, $block5)";
-            command.Parameters.AddWithValue("$block1", block1);
-            command.Parameters.AddWithValue("$block2", block2);
-            command.Parameters.AddWithValue("$block4", block4);
-            command.Parameters.AddWithValue("$block5", block5);
+            INSERT INTO Messages (
+                TypeOfMessage,
+                ServiceLevel,
+                BIC,
+                SessionNumber,
+                SequenceNumber,
+                MessageDirection,
+                MessageType,
+                ReceiverBIC,
+                SenderBIC,
+                AppHeaderSessionNumber,
+                AppHeaderSequenceNumber,
+                MessagePriority,
+                TransactionRef,
+                RelatedRef,
+                MessageText,
+                Checksum,
+                DigitalSignature,
+                Timestamp
+            ) VALUES (
+                @TypeOfMessage,
+                @ServiceLevel,
+                @BIC,
+                @SessionNumber,
+                @SequenceNumber,
+                @MessageDirection,
+                @MessageType,
+                @ReceiverBIC,
+                @SenderBIC,
+                @AppHeaderSessionNumber,
+                @AppHeaderSequenceNumber,
+                @MessagePriority,
+                @TransactionRef,
+                @RelatedRef,
+                @MessageText,
+                @Checksum,
+                @DigitalSignature,
+                @Timestamp
+            )";
+
+            command.Parameters.AddWithValue("@TypeOfMessage", messageEntity.TypeOfMessage);
+            command.Parameters.AddWithValue("@ServiceLevel", messageEntity.ServiceLevel);
+            command.Parameters.AddWithValue("@BIC", messageEntity.BIC);
+            command.Parameters.AddWithValue("@SessionNumber", messageEntity.SessionNumber);
+            command.Parameters.AddWithValue("@SequenceNumber", messageEntity.SequenceNumber);
+            command.Parameters.AddWithValue("@MessageDirection", messageEntity.MessageDirection);
+            command.Parameters.AddWithValue("@MessageType", messageEntity.MessageType);
+            command.Parameters.AddWithValue("@ReceiverBIC", messageEntity.ReceiverBIC);
+            command.Parameters.AddWithValue("@SenderBIC", messageEntity.SenderBIC);
+            command.Parameters.AddWithValue("@AppHeaderSessionNumber", messageEntity.AppHeaderSessionNumber);
+            command.Parameters.AddWithValue("@AppHeaderSequenceNumber", messageEntity.AppHeaderSequenceNumber);
+            command.Parameters.AddWithValue("@MessagePriority", messageEntity.MessagePriority);
+            command.Parameters.AddWithValue("@TransactionRef", messageEntity.TransactionRef);
+            command.Parameters.AddWithValue("@RelatedRef", messageEntity.RelatedRef);
+            command.Parameters.AddWithValue("@MessageText", messageEntity.MessageText);
+            command.Parameters.AddWithValue("@Checksum", messageEntity.Checksum);
+            command.Parameters.AddWithValue("@DigitalSignature", messageEntity.DigitalSignature);
+            command.Parameters.AddWithValue("@Timestamp", messageEntity.Timestamp.ToString("yyyy-MM-dd HH:mm:ss"));
+
             command.ExecuteNonQuery();
         }
     }
 }
+

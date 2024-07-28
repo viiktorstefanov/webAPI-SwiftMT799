@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Text.Json;
+
 
 [ApiController]
 [Route("api/[controller]")]
@@ -32,6 +35,8 @@ public class MessageController : ControllerBase
                 content = await reader.ReadToEndAsync();
             }
 
+            _logger.LogInformation("File content read successfully.");
+
             if (!IsValidSwiftMessage(content))
             {
                 _logger.LogWarning("Invalid SWIFT MT799 message format.");
@@ -46,9 +51,38 @@ public class MessageController : ControllerBase
             var messageBlocks = ParseMessage(content);
 
             var basicHeaderBlock = ParseBasicHeaderBlock(messageBlocks.BHB);
+
             var appHeaderBlock = ParseApplicationHeaderBlock(messageBlocks.AHB);
             var textBlock = ParseTextBlock(messageBlocks.TXTB);
             var trailerBlock = ParseTrailerBlock(messageBlocks.TLRB);
+
+            if (basicHeaderBlock == null)
+            {
+                _logger.LogWarning("Basic Header Block is missing or invalid.");
+                return BadRequest("Basic Header Block is missing or invalid.");
+            }
+
+            if (appHeaderBlock == null)
+            {
+                _logger.LogWarning("Application Header Block is missing or invalid.");
+                return BadRequest("Application Header Block is missing or invalid.");
+            }
+
+            if (textBlock == null)
+            {
+                _logger.LogWarning("Text Block is missing or invalid.");
+                return BadRequest("Text Block is missing or invalid.");
+            }
+
+            if (trailerBlock == null)
+            {
+                _logger.LogWarning("Trailer Block is missing or invalid.");
+                return BadRequest("Trailer Block Block is missing or invalid.");
+            }
+
+            var transactionRef = textBlock?.Fields.ContainsKey("20") == true ? textBlock.Fields["20"] : null;
+            var relatedRef = textBlock?.Fields.ContainsKey("21") == true ? textBlock.Fields["21"] : null;
+            var messageText = textBlock?.Fields.ContainsKey("79") == true ? textBlock.Fields["79"] : null;
 
             var messageEntity = new MessageEntity
             {
@@ -69,9 +103,10 @@ public class MessageController : ControllerBase
                 MessagePriority = appHeaderBlock.MessagePriority,
 
                 // Text Block
-                TransactionRef = textBlock.Fields.ContainsKey("20") ? textBlock.Fields["20"] : null,
-                RelatedRef = textBlock.Fields.ContainsKey("21") ? textBlock.Fields["21"] : null,
-                MessageText = textBlock.Fields.ContainsKey("79") ? textBlock.Fields["79"] : null,
+
+                TransactionRef = transactionRef,
+                RelatedRef = relatedRef,
+                MessageText = messageText,
 
                 // Trailer Block
                 Checksum = trailerBlock.Chk,
@@ -95,29 +130,11 @@ public class MessageController : ControllerBase
 
     private bool IsValidSwiftMessage(string content)
     {
-        // Basic structure check for MT799 message
-        if (!content.StartsWith("{1:") || !content.Contains("{2:") || !content.Contains("{4:") || !content.Contains("{5:"))
-        {
-            return false;
-        }
+        string swiftMessagePattern = @"\{1:.*?\{2:.*?\{4:.*?\{5:.*?\}";
 
-        // Ensure correct order of blocks
-        var bhbIndex = content.IndexOf("{1:");
-        var ahbIndex = content.IndexOf("{2:");
-        var txtbIndex = content.IndexOf("{4:");
-        var tlrbIndex = content.IndexOf("{5:");
+        Regex swiftMessageRegex = new Regex(swiftMessagePattern, RegexOptions.Compiled | RegexOptions.Singleline);
 
-        if (bhbIndex == -1 || ahbIndex == -1 || txtbIndex == -1 || tlrbIndex == -1)
-        {
-            return false;
-        }
-
-        if (bhbIndex > ahbIndex || ahbIndex > txtbIndex || txtbIndex > tlrbIndex)
-        {
-            return false;
-        }
-
-        return true;
+        return swiftMessageRegex.IsMatch(content);
     }
 
     private (string BHB, string AHB, string TXTB, string TLRB) ParseMessage(string content)
@@ -127,36 +144,37 @@ public class MessageController : ControllerBase
         string txtb = string.Empty;
         string tlrb = string.Empty;
 
-        using (var reader = new StringReader(content))
+        string bhbPattern = @"(\{1:.*?\})(?=\{2:|\Z)";
+        string ahbPattern = @"(\{2:.*?\})(?=\{4:|\Z)";
+        string txtbPattern = @"(\{4:.*?)(?=\{5:|\Z)";
+        string tlrbPattern = @"(\{5:.*?\})(?=\Z)";
+
+
+        var bhbMatch = Regex.Match(content, bhbPattern, RegexOptions.Singleline);
+        var ahbMatch = Regex.Match(content, ahbPattern, RegexOptions.Singleline);
+        var txtbMatch = Regex.Match(content, txtbPattern, RegexOptions.Singleline);
+        var tlrbMatch = Regex.Match(content, tlrbPattern, RegexOptions.Singleline);
+
+        if (bhbMatch.Success)
         {
-            string line;
-            while ((line = reader.ReadLine()) != null)
-            {
-                if (line.StartsWith("{1:"))
-                {
-                    bhb = line;
-                }
-                else if (line.StartsWith("{2:"))
-                {
-                    ahb = line;
-                }
-                else if (line.StartsWith("{4:"))
-                {
-                    txtb = line + "\n";
-                    while ((line = reader.ReadLine()) != null && !line.StartsWith("{5:"))
-                    {
-                        txtb += line + "\n";
-                    }
-                }
-                if (line.StartsWith("{5:"))
-                {
-                    tlrb = line;
-                }
-            }
+            bhb = bhbMatch.Value;
+        }
+        if (ahbMatch.Success)
+        {
+            ahb = ahbMatch.Value;
+        }
+        if (txtbMatch.Success)
+        {
+            txtb = txtbMatch.Value;
+        }
+        if (tlrbMatch.Success)
+        {
+            tlrb = tlrbMatch.Value;
         }
 
         return (bhb, ahb, txtb, tlrb);
     }
+
 
 
     public class BasicHeaderBlock
@@ -341,34 +359,35 @@ public class MessageController : ControllerBase
 
     public class MessageEntity
     {
-        public int Id { get; set; }
-        // Basic Header Block 
-        public string TypeOfMessage { get; set; }
-        public string ServiceLevel { get; set; }
-        public string BIC { get; set; }
-        public string SessionNumber { get; set; }
-        public string SequenceNumber { get; set; }
+        public int messageId { get; set; }
+        // Basic Header Block
+        public string? TypeOfMessage { get; set; }
+        public string? ServiceLevel { get; set; }
+        public string? BIC { get; set; }
+        public string? SessionNumber { get; set; }
+        public string? SequenceNumber { get; set; }
 
         // Application Header Block
-        public string MessageDirection { get; set; }
-        public string MessageType { get; set; }
-        public string ReceiverBIC { get; set; }
-        public string SenderBIC { get; set; }
-        public string AppHeaderSessionNumber { get; set; }
-        public string AppHeaderSequenceNumber { get; set; }
-        public string MessagePriority { get; set; }
+        public string? MessageDirection { get; set; }
+        public string? MessageType { get; set; }
+        public string? ReceiverBIC { get; set; }
+        public string? SenderBIC { get; set; }
+        public string? AppHeaderSessionNumber { get; set; }
+        public string? AppHeaderSequenceNumber { get; set; }
+        public string? MessagePriority { get; set; }
 
         // Text Block
-        public string TransactionRef { get; set; }
-        public string RelatedRef { get; set; }
-        public string MessageText { get; set; }
+        public string? TransactionRef { get; set; }
+        public string? RelatedRef { get; set; }
+        public string? MessageText { get; set; }
 
         // Trailer Block
-        public string Checksum { get; set; }
-        public string DigitalSignature { get; set; }
+        public string? Checksum { get; set; }
+        public string? DigitalSignature { get; set; }
 
         public DateTime Timestamp { get; set; }
     }
+
 
 }
 
