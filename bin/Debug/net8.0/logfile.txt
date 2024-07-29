@@ -1363,3 +1363,92 @@
    at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
 2024-07-29 13:45:58.9434|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNE28C3D0" stopped.
 2024-07-29 13:45:58.9434|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNE28C3D0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 13:49:08.2749|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 13:49:08.3168|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 13:49:08.4693|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 13:49:08.4693|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5000
+2024-07-29 13:49:08.4693|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 13:49:08.4693|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 13:49:08.4693|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 13:49:08.4693|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 13:49:08.4693|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 13:49:08.4693|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 13:49:08.4693|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 13:49:08.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER1" accepted.
+2024-07-29 13:49:08.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER1" started.
+2024-07-29 13:49:08.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER2" accepted.
+2024-07-29 13:49:08.9167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER2" started.
+2024-07-29 13:49:08.9411|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER1" received FIN.
+2024-07-29 13:49:08.9411|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER2" received FIN.
+2024-07-29 13:49:08.9478|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 13:49:08.9478|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 13:49:08.9627|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER2" stopped.
+2024-07-29 13:49:08.9627|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER1" stopped.
+2024-07-29 13:49:08.9627|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 13:49:08.9627|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 13:49:09.2811|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER3" accepted.
+2024-07-29 13:49:09.2811|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER3" started.
+2024-07-29 13:49:09.2983|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER4" accepted.
+2024-07-29 13:49:09.2983|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER4" started.
+2024-07-29 13:49:09.3092|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER5" accepted.
+2024-07-29 13:49:09.3092|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER5" started.
+2024-07-29 13:49:09.3194|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER5" received FIN.
+2024-07-29 13:49:09.3194|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER4" received FIN.
+2024-07-29 13:49:09.3194|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FNG9HQER3 established using the following protocol: Tls13
+2024-07-29 13:49:09.3194|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FNG9HQER4 established using the following protocol: Tls13
+2024-07-29 13:49:09.3194|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FNG9HQER5 established using the following protocol: Tls13
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN5FNG9HQER4" is closed. The last processed stream ID was 0.
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN5FNG9HQER5" is closed. The last processed stream ID was 0.
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FNG9HQER5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN5FNG9HQER5 completed.
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN5FNG9HQER4 completed.
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER4" stopped.
+2024-07-29 13:49:09.3380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FNG9HQER5" stopped.
+2024-07-29 13:49:09.3595|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 13:49:09.4284|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 13:49:09.4284|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 13:49:09.4284|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 13:49:09.4917|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 13:49:09.4917|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 13:49:09.4917|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 13:49:09.4917|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 13:49:09.4917|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 147.9008ms
+2024-07-29 13:49:09.5193|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 13:49:09.5193|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - -
+2024-07-29 13:49:09.5193|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2024-07-29 13:49:09.5193|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 13:49:09.5229|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 13:49:09.5229|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 10.7875ms
+2024-07-29 13:49:09.5380|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 13:49:09.5380|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-29 13:49:09.5380|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - 499 143943 text/css 20.2273ms
+2024-07-29 13:49:09.5756|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 53.7351ms
+2024-07-29 13:49:09.5975|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-29 13:49:09.5975|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-16x16.png'
+2024-07-29 13:49:09.5975|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 13:49:09.5999|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 13:49:09.5999|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-29 13:49:09.5999|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 3.4461ms
+2024-07-29 13:49:09.6347|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 13:49:09.6347|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 13:49:09.6347|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 13:49:09.6907|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 56.1356ms
