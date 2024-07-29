@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kSjU0UYqKpU=",
+  "dgSpecHash": "OVlKkWJuvh0=",
   "success": true,
-  "projectFilePath": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj",
+  "projectFilePath": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlite\\8.0.7\\microsoft.data.sqlite.8.0.7.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.7\\microsoft.data.sqlite.core.8.0.7.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj": {}
+    "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj": {}
   },
   "projects": {
-    "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj": {
+    "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj",
+        "projectUniqueName": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj",
         "projectName": "webAPI-SwiftMT799",
-        "projectPath": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj",
+        "projectPath": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\webAPI-SwiftMT799\\obj\\",
+        "outputPath": "D:\\Github\\webAPI-SwiftMT799\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
