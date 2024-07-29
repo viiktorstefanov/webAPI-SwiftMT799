@@ -84,6 +84,5 @@ In SWIFT MT799 messages, the different blocks of the message are defined by spec
 
 ### Files in the Repository
 
-- **`Task.txt`**: Contains the requirements and specifications for the application. Read this file to understand expectations for the project.
-- **`example_mt799.txt`**: An example SWIFT MT799 message file that you can use for testing the API. This file contains sample content formatted according to the SWIFT MT799 specification.
-
+- **`Task.txt`**: Contains the requirements and specifications for the application.
+- **`example_mt799.txt`**: An example SWIFT MT799 message file that you can use for testing the API.
