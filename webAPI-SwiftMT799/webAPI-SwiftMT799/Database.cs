@@ -109,5 +109,51 @@ public static class Database
             command.ExecuteNonQuery();
         }
     }
+
+    public static List<MessageEntity> GetAllMessages()
+    {
+        var messages = new List<MessageEntity>();
+
+        using (var connection = new SqliteConnection(ConnectionString))
+        {
+            connection.Open();
+
+            var command = connection.CreateCommand();
+            command.CommandText = "SELECT * FROM Messages";
+
+            using (var reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    var message = new MessageEntity
+                    {
+                        messageId = reader.GetInt32(reader.GetOrdinal("MessageID")),
+                        TypeOfMessage = reader.GetString(reader.GetOrdinal("TypeOfMessage")),
+                        ServiceLevel = reader.GetString(reader.GetOrdinal("ServiceLevel")),
+                        BIC = reader.GetString(reader.GetOrdinal("BIC")),
+                        SessionNumber = reader.GetString(reader.GetOrdinal("SessionNumber")),
+                        SequenceNumber = reader.GetString(reader.GetOrdinal("SequenceNumber")),
+                        MessageDirection = reader.GetString(reader.GetOrdinal("MessageDirection")),
+                        MessageType = reader.GetString(reader.GetOrdinal("MessageType")),
+                        ReceiverBIC = reader.GetString(reader.GetOrdinal("ReceiverBIC")),
+                        SenderBIC = reader.GetString(reader.GetOrdinal("SenderBIC")),
+                        AppHeaderSessionNumber = reader.GetString(reader.GetOrdinal("AppHeaderSessionNumber")),
+                        AppHeaderSequenceNumber = reader.GetString(reader.GetOrdinal("AppHeaderSequenceNumber")),
+                        MessagePriority = reader.GetString(reader.GetOrdinal("MessagePriority")),
+                        TransactionRef = reader.GetString(reader.GetOrdinal("TransactionRef")),
+                        RelatedRef = reader.GetString(reader.GetOrdinal("RelatedRef")),
+                        MessageText = reader.GetString(reader.GetOrdinal("MessageText")),
+                        Checksum = reader.GetString(reader.GetOrdinal("Checksum")),
+                        DigitalSignature = reader.GetString(reader.GetOrdinal("DigitalSignature")),
+                        Timestamp = DateTime.Parse(reader.GetString(reader.GetOrdinal("Timestamp")))
+                    };
+
+                    messages.Add(message);
+                }
+            }
+        }
+
+        return messages;
+    }
 }
 

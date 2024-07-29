@@ -17,6 +17,29 @@ public class MessageController : ControllerBase
         _logger = logger;
     }
 
+    [HttpGet("messages")]
+    public IActionResult GetAllMessages()
+    {
+        try
+        {
+            var messages = Database.GetAllMessages();
+
+            if (messages == null || messages.Count == 0)
+            {
+                _logger.LogInformation("No messages found.");
+                return NotFound("No messages found.");
+            }
+
+            _logger.LogInformation("All messages have been sent successfully.");
+            return Ok(messages);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error retrieving messages.");
+            return StatusCode(500, "Internal server error");
+        }
+    }
+
     [HttpPost("upload")]
     public async Task<IActionResult> UploadMessage(IFormFile file)
     {
@@ -37,7 +60,7 @@ public class MessageController : ControllerBase
 
             _logger.LogInformation("File content read successfully.");
 
-            if (!IsValidSwiftMessage(content))
+            if (!IsValidMT799SwiftMessage(content))
             {
                 _logger.LogWarning("Invalid SWIFT MT799 message format.");
                 return BadRequest("Invalid SWIFT MT799 message format.");
@@ -128,7 +151,7 @@ public class MessageController : ControllerBase
         }
     }
 
-    private bool IsValidSwiftMessage(string content)
+    private bool IsValidMT799SwiftMessage(string content)
     {
         string swiftMessagePattern = @"\{1:.*?\{2:.*?\{4:.*?\{5:.*?\}";
 
@@ -159,14 +182,17 @@ public class MessageController : ControllerBase
         {
             bhb = bhbMatch.Value;
         }
+
         if (ahbMatch.Success)
         {
             ahb = ahbMatch.Value;
         }
+
         if (txtbMatch.Success)
         {
             txtb = txtbMatch.Value;
         }
+
         if (tlrbMatch.Success)
         {
             tlrb = tlrbMatch.Value;

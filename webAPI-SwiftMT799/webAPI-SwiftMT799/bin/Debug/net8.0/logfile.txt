@@ -113,3 +113,776 @@
 2024-07-28 21:17:09.8663|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
 2024-07-28 21:17:09.8663|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5F65LQJ34O" completed keep alive response.
 2024-07-28 21:17:09.8663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 78.8585ms
+2024-07-29 10:17:57.7073|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 10:17:57.7632|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 10:17:57.9244|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 10:17:57.9244|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 10:17:57.9244|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 10:17:57.9244|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 10:17:57.9244|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 10:17:57.9244|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 10:17:57.9244|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 10:17:57.9244|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 10:17:57.9244|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 10:17:58.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO4" accepted.
+2024-07-29 10:17:58.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO5" accepted.
+2024-07-29 10:17:58.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO4" started.
+2024-07-29 10:17:58.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO5" started.
+2024-07-29 10:17:58.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQ9BBIO5" received FIN.
+2024-07-29 10:17:58.0853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQ9BBIO4" received FIN.
+2024-07-29 10:17:58.0996|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:17:58.0996|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:17:58.1160|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO5" stopped.
+2024-07-29 10:17:58.1160|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO4" stopped.
+2024-07-29 10:17:58.1160|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQ9BBIO5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:17:58.1160|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQ9BBIO4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:17:58.4722|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO6" accepted.
+2024-07-29 10:17:58.4722|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO6" started.
+2024-07-29 10:17:58.4850|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO7" accepted.
+2024-07-29 10:17:58.4850|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO7" started.
+2024-07-29 10:17:58.4979|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQ9BBIO7" received FIN.
+2024-07-29 10:17:58.4979|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FJQ9BBIO7 established using the following protocol: Tls13
+2024-07-29 10:17:58.4979|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FJQ9BBIO6 established using the following protocol: Tls13
+2024-07-29 10:17:58.5178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN5FJQ9BBIO7" is closed. The last processed stream ID was 0.
+2024-07-29 10:17:58.5178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQ9BBIO7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:17:58.5178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN5FJQ9BBIO7 completed.
+2024-07-29 10:17:58.5215|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQ9BBIO7" stopped.
+2024-07-29 10:17:58.5433|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 10:17:58.6290|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 10:17:58.6396|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 10:17:58.6396|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:17:58.6928|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 10:17:58.6928|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 10:17:58.6928|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 10:17:58.6928|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 10:17:58.6928|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 167.7225ms
+2024-07-29 10:17:58.7272|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 10:17:58.7272|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 10:17:58.7272|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 9.5191ms
+2024-07-29 10:17:58.7790|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 45.9699ms
+2024-07-29 10:17:58.8084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-29 10:17:58.8084|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-16x16.png'
+2024-07-29 10:17:58.8084|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:17:58.8084|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 10:17:58.8084|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-29 10:17:58.8084|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 8.8627ms
+2024-07-29 10:17:58.8399|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 10:17:58.8399|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 10:17:58.8399|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:17:58.8969|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 57.2662ms
+2024-07-29 10:18:10.9841|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------143117728141111353412056171648 921
+2024-07-29 10:18:10.9841|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/upload'
+2024-07-29 10:18:10.9841|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)' with route pattern 'api/Message/upload' is valid for the request path '/api/Message/upload'
+2024-07-29 10:18:10.9841|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:18:10.9841|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 10:18:10.9898|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:18:11.0063|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ConsumesAttribute
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FJQ9BBIO6", Request id "0HN5FJQ9BBIO6:00000019": started reading request body.
+2024-07-29 10:18:11.0063|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FJQ9BBIO6", Request id "0HN5FJQ9BBIO6:00000019": done reading request body.
+2024-07-29 10:18:11.0251|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 10:18:11.0251|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2024-07-29 10:18:11.0251|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:18:11.0251|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:18:11.0251|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 10:18:11.0251|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:18:11.0251|INFO|MessageController|File content read successfully.
+2024-07-29 10:18:11.0640|INFO|MessageController|Message saved successfully.
+2024-07-29 10:18:11.0640|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 10:18:11.0640|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 10:18:11.0640|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 10:18:11.0640|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 10:18:11.0640|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-29 10:18:11.0677|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 10:18:11.0677|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 60.7387ms
+2024-07-29 10:18:11.0677|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:18:11.0677|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 87.6508ms
+2024-07-29 10:18:54.2309|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 10:18:54.2811|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 10:18:54.4226|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 10:18:54.4226|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 10:18:54.4226|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 10:18:54.4226|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 10:18:54.4226|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 10:18:54.4226|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 10:18:54.4226|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 10:18:54.4226|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 10:18:54.4226|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 10:18:54.9040|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979K9" accepted.
+2024-07-29 10:18:54.9040|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979K9" started.
+2024-07-29 10:18:54.9136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979KA" accepted.
+2024-07-29 10:18:54.9136|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979KA" started.
+2024-07-29 10:18:54.9297|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQQ979K9" received FIN.
+2024-07-29 10:18:54.9297|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQQ979KA" received FIN.
+2024-07-29 10:18:54.9297|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:18:54.9297|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:18:54.9510|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979K9" stopped.
+2024-07-29 10:18:54.9510|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979KA" stopped.
+2024-07-29 10:18:54.9510|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQQ979K9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:18:54.9510|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FJQQ979KA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:18:55.1159|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979KB" accepted.
+2024-07-29 10:18:55.1159|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FJQQ979KB" started.
+2024-07-29 10:18:55.1519|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FJQQ979KB established using the following protocol: Tls13
+2024-07-29 10:18:55.2052|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 10:18:55.2686|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 10:18:55.2793|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 10:18:55.2793|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:18:55.3324|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 10:18:55.3333|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 10:18:55.3333|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 10:18:55.3333|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 10:18:55.3333|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 145.5311ms
+2024-07-29 10:18:55.3727|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 10:18:55.3727|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 3.5345ms
+2024-07-29 10:18:55.3727|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 10:18:55.4077|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.2343ms
+2024-07-29 10:18:55.4383|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-29 10:18:55.4383|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-16x16.png'
+2024-07-29 10:18:55.4383|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:18:55.4438|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 10:18:55.4438|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-29 10:18:55.4438|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 7.3803ms
+2024-07-29 10:18:55.4686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 10:18:55.4686|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 10:18:55.4686|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:18:55.5218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 53.2186ms
+2024-07-29 10:48:10.6408|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 10:48:10.6888|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 10:48:10.8216|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 10:48:10.8216|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 10:48:10.8216|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 10:48:10.8216|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 10:48:10.8216|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 10:48:10.8216|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 10:48:10.8216|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 10:48:10.8216|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 10:48:10.8216|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 10:48:11.2323|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55H" accepted.
+2024-07-29 10:48:11.2323|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55G" accepted.
+2024-07-29 10:48:11.2323|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55H" started.
+2024-07-29 10:48:11.2323|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55G" started.
+2024-07-29 10:48:11.2583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKB5MS55G" received FIN.
+2024-07-29 10:48:11.2583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKB5MS55H" received FIN.
+2024-07-29 10:48:11.2583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:48:11.2583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:48:11.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55H" stopped.
+2024-07-29 10:48:11.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55G" stopped.
+2024-07-29 10:48:11.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKB5MS55G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:48:11.2836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKB5MS55H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:48:11.3971|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55I" accepted.
+2024-07-29 10:48:11.3971|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKB5MS55I" started.
+2024-07-29 10:48:11.4202|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKB5MS55I established using the following protocol: Tls13
+2024-07-29 10:48:11.4545|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 10:48:11.5104|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 10:48:11.5104|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 10:48:11.5104|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:48:11.5715|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 10:48:11.5715|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 10:48:11.5715|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 10:48:11.5715|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 10:48:11.5715|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 132.4954ms
+2024-07-29 10:48:11.6073|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - -
+2024-07-29 10:48:11.6073|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 10:48:11.6073|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2024-07-29 10:48:11.6073|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:48:11.6073|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 10:48:11.6176|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 10.4197ms
+2024-07-29 10:48:11.6176|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 10:48:11.6485|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-29 10:48:11.6485|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - 499 143943 text/css 41.7048ms
+2024-07-29 10:48:11.6658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 53.4172ms
+2024-07-29 10:48:11.6658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-29 10:48:11.6658|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-16x16.png'
+2024-07-29 10:48:11.6658|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:48:11.6658|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 10:48:11.6658|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-29 10:48:11.6658|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 3.1013ms
+2024-07-29 10:48:11.6980|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 10:48:11.6980|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 10:48:11.6980|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:48:11.7492|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 51.3040ms
+2024-07-29 10:48:15.0010|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------3750985223304819213820392183 169
+2024-07-29 10:48:15.0010|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/upload'
+2024-07-29 10:48:15.0061|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)' with route pattern 'api/Message/upload' is valid for the request path '/api/Message/upload'
+2024-07-29 10:48:15.0061|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:48:15.0061|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 10:48:15.0061|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:48:15.0210|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ConsumesAttribute
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKB5MS55I", Request id "0HN5FKB5MS55I:0000001B": started reading request body.
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKB5MS55I", Request id "0HN5FKB5MS55I:0000001B": done reading request body.
+2024-07-29 10:48:15.0210|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|No files found in the request to bind the model to.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter|The request has model state errors, returning an error response.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2024-07-29 10:48:15.0375|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-07-29 10:48:15.0375|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-07-29 10:48:15.0611|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 36.0271ms
+2024-07-29 10:48:15.0611|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:48:15.0611|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 400 - application/problem+json;+charset=utf-8 60.5519ms
+2024-07-29 10:48:23.5967|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------162548597535965356312878893368 921
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/upload'
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)' with route pattern 'api/Message/upload' is valid for the request path '/api/Message/upload'
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 10:48:23.5967|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:48:23.5967|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ConsumesAttribute
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKB5MS55I", Request id "0HN5FKB5MS55I:0000001D": started reading request body.
+2024-07-29 10:48:23.5967|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKB5MS55I", Request id "0HN5FKB5MS55I:0000001D": done reading request body.
+2024-07-29 10:48:23.6016|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 10:48:23.6016|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2024-07-29 10:48:23.6016|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:48:23.6016|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:48:23.6016|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 10:48:23.6016|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 10:48:23.6016|INFO|MessageController|File content read successfully.
+2024-07-29 10:48:23.6319|INFO|MessageController|Message saved successfully.
+2024-07-29 10:48:23.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 10:48:23.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 10:48:23.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 10:48:23.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 10:48:23.6319|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-29 10:48:23.6319|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 10:48:23.6319|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 34.8835ms
+2024-07-29 10:48:23.6319|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 10:48:23.6319|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 37.0550ms
+2024-07-29 10:53:20.1219|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 10:53:20.1592|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 10:53:20.2844|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 10:53:20.2844|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 10:53:20.2844|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 10:53:20.2844|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 10:53:20.2844|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 10:53:20.2844|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 10:53:20.2844|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 10:53:20.2844|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 10:53:20.2844|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 10:53:20.7326|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61R" accepted.
+2024-07-29 10:53:20.7326|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61R" started.
+2024-07-29 10:53:20.7437|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKE1UG61S" received FIN.
+2024-07-29 10:53:20.7437|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKE1UG61R" received FIN.
+2024-07-29 10:53:20.7437|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61S" accepted.
+2024-07-29 10:53:20.7437|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61S" started.
+2024-07-29 10:53:20.7437|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:53:20.7437|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:53:20.7670|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61S" stopped.
+2024-07-29 10:53:20.7670|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61R" stopped.
+2024-07-29 10:53:20.7670|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKE1UG61S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:53:20.7670|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKE1UG61R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:53:20.9226|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61T" accepted.
+2024-07-29 10:53:20.9226|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKE1UG61T" started.
+2024-07-29 10:53:20.9459|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKE1UG61T established using the following protocol: Tls13
+2024-07-29 10:53:20.9825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 10:53:21.0395|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 10:53:21.0395|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 10:53:21.0395|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:53:21.1004|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 10:53:21.1004|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 10:53:21.1004|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 10:53:21.1004|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 10:53:21.1004|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 137.3382ms
+2024-07-29 10:53:21.1332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - - -
+2024-07-29 10:53:21.1332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 10:53:21.1332|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2024-07-29 10:53:21.1332|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:53:21.1332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 10:53:21.1332|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 9.0236ms
+2024-07-29 10:53:21.1332|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 10:53:21.1494|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-29 10:53:21.1494|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/swagger-ui.css - 499 143943 text/css 16.5581ms
+2024-07-29 10:53:21.1672|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 29.6722ms
+2024-07-29 10:53:21.1968|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - - -
+2024-07-29 10:53:21.1968|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-16x16.png'
+2024-07-29 10:53:21.1968|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:53:21.1968|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-07-29 10:53:21.1968|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-07-29 10:53:21.1968|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/favicon-16x16.png - 499 665 image/png 2.7195ms
+2024-07-29 10:53:21.2258|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 10:53:21.2258|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 10:53:21.2258|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:53:21.2772|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 51.5268ms
+2024-07-29 10:55:19.5461|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 10:55:19.5845|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 10:55:19.7204|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 10:55:19.7204|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 10:55:19.7204|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 10:55:19.7204|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 10:55:19.7204|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 10:55:19.7204|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 10:55:19.7204|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 10:55:19.7204|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 10:55:19.7204|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 10:55:20.0230|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5J" received FIN.
+2024-07-29 10:55:20.0230|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5J" accepted.
+2024-07-29 10:55:20.0230|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5J" started.
+2024-07-29 10:55:20.0230|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 10:55:20.0511|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5J" stopped.
+2024-07-29 10:55:20.0536|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 10:55:20.3587|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5K" accepted.
+2024-07-29 10:55:20.3587|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5K" started.
+2024-07-29 10:55:20.3899|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKF5G4O5K established using the following protocol: Tls13
+2024-07-29 10:55:20.4342|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 10:55:20.4990|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 10:55:20.5105|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 10:55:20.5105|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:55:20.5651|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 10:55:20.5651|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 10:55:20.5757|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 10:55:20.5757|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 10:55:20.5757|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 152.2333ms
+2024-07-29 10:55:20.5972|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 10:55:20.5972|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 10:55:20.6075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 10.4115ms
+2024-07-29 10:55:20.6296|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 32.7752ms
+2024-07-29 10:55:20.6899|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 10:55:20.6899|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 10:55:20.6899|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 10:55:20.7417|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 51.8362ms
+2024-07-29 10:55:31.7510|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/api/Message/messages - - -
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 10:55:31.7559|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 10:55:31.7559|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:55:31.7559|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 10:56:40.5870|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5K" received FIN.
+2024-07-29 10:56:40.5870|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN5FKF5G4O5K" is closed. The last processed stream ID was 23.
+2024-07-29 10:56:40.5870|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5K" sending RST because: "The client closed the connection."
+2024-07-29 10:58:11.8650|INFO|MessageController|Messages retrieved successfully.
+2024-07-29 10:58:23.3325|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 10:58:23.3325|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 10:58:23.3325|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 10:58:23.3325|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 10:58:23.3343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-29 10:58:23.3343|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MessageController+MessageEntity, webAPI-SwiftMT799, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-29 10:58:23.3343|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.GetAllMessages (webAPI-SwiftMT799) in 171574.1373ms
+2024-07-29 10:58:23.3343|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 10:58:23.3343|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/api/Message/messages - 499 - application/json;+charset=utf-8 171596.2877ms
+2024-07-29 10:58:23.3343|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN5FKF5G4O5K completed.
+2024-07-29 10:58:23.3343|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5K" stopped.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5L" accepted.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5L" received FIN.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5L" started.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5M" accepted.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5M" started.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5L" stopped.
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKF5G4O5M established using the following protocol: Tls13
+2024-07-29 11:00:25.2570|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET https://localhost:7113/api/Message/messages - multipart/form-data;+boundary=--------------------------471795340221875690378620 907
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:00:25.2570|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:00:25.2570|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:00:25.2570|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:00:35.4657|INFO|MessageController|Messages retrieved successfully.
+2024-07-29 11:01:03.0615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:01:03.0615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:01:03.0615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:01:03.0615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:01:03.0615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-29 11:01:03.0615|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MessageController+MessageEntity, webAPI-SwiftMT799, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-29 11:01:03.0693|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.GetAllMessages (webAPI-SwiftMT799) in 37800.8643ms
+2024-07-29 11:01:03.0693|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:01:03.0693|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5M" completed keep alive response.
+2024-07-29 11:01:03.0693|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET https://localhost:7113/api/Message/messages - 200 - application/json;+charset=utf-8 37802.9028ms
+2024-07-29 11:01:03.0693|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKF5G4O5M", Request id "0HN5FKF5G4O5M:00000001": started reading request body.
+2024-07-29 11:01:03.0693|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKF5G4O5M", Request id "0HN5FKF5G4O5M:00000001": the application completed without reading the entire request body.
+2024-07-29 11:01:03.0693|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKF5G4O5M", Request id "0HN5FKF5G4O5M:00000001": done reading request body.
+2024-07-29 11:01:24.4013|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5M" received FIN.
+2024-07-29 11:01:24.4013|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKF5G4O5M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 11:01:24.4013|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5M" disconnecting.
+2024-07-29 11:01:24.4013|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5M" stopped.
+2024-07-29 11:02:52.4654|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5N" accepted.
+2024-07-29 11:02:52.4654|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKF5G4O5N" started.
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKF5G4O5N established using the following protocol: Tls13
+2024-07-29 11:02:52.4763|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/api/Message/messages - - -
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:02:52.4763|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:02:52.4763|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:02:52.4763|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:03:11.1620|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 11:03:11.2055|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 11:03:11.3479|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 11:03:11.3479|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 11:03:11.3479|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 11:03:11.3479|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 11:03:11.3479|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 11:03:11.3479|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 11:03:11.3479|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 11:03:11.3479|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 11:03:11.3479|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 11:03:11.8120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKJI3F9G7" received FIN.
+2024-07-29 11:03:11.8120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKJI3F9G8" received FIN.
+2024-07-29 11:03:11.8120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G7" accepted.
+2024-07-29 11:03:11.8120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G8" accepted.
+2024-07-29 11:03:11.8120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G7" started.
+2024-07-29 11:03:11.8120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G8" started.
+2024-07-29 11:03:11.8274|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 11:03:11.8274|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 11:03:11.8422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G7" stopped.
+2024-07-29 11:03:11.8422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G8" stopped.
+2024-07-29 11:03:11.8422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKJI3F9G8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 11:03:11.8422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKJI3F9G7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 11:03:11.9556|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G9" accepted.
+2024-07-29 11:03:11.9556|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKJI3F9G9" started.
+2024-07-29 11:03:11.9820|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKJI3F9G9 established using the following protocol: Tls13
+2024-07-29 11:03:12.0158|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 11:03:12.0696|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 11:03:12.0696|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 11:03:12.0696|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 11:03:12.1286|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 11:03:12.1286|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 11:03:12.1397|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 11:03:12.1397|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 11:03:12.1397|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 129.3632ms
+2024-07-29 11:03:12.1609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 11:03:12.1609|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 11:03:12.1684|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 7.6872ms
+2024-07-29 11:03:12.1939|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 33.1934ms
+2024-07-29 11:03:12.2468|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 11:03:12.2468|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 11:03:12.2468|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 11:03:12.2964|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 49.8175ms
+2024-07-29 11:03:15.7998|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/api/Message/messages - - -
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:03:15.8038|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:03:15.8038|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:03:15.8038|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:03:15.8189|INFO|MessageController|Messages retrieved successfully.
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:03:15.8189|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-29 11:03:15.8189|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MessageController+MessageEntity, webAPI-SwiftMT799, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-29 11:03:15.8423|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.GetAllMessages (webAPI-SwiftMT799) in 21.3712ms
+2024-07-29 11:03:15.8423|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:03:15.8423|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/api/Message/messages - 200 - application/json;+charset=utf-8 43.0908ms
+2024-07-29 11:09:11.9036|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-07-29 11:09:11.9433|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-07-29 11:09:12.0782|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7113
+2024-07-29 11:09:12.0782|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2024-07-29 11:09:12.0782|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly webAPI-SwiftMT799
+2024-07-29 11:09:12.0782|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-29 11:09:12.0782|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-29 11:09:12.0782|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-07-29 11:09:12.0782|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-07-29 11:09:12.0782|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\Github\webAPI-SwiftMT799\webAPI-SwiftMT799\webAPI-SwiftMT799
+2024-07-29 11:09:12.0782|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-07-29 11:09:12.3045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR35" accepted.
+2024-07-29 11:09:12.3045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR34" accepted.
+2024-07-29 11:09:12.3045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR34" started.
+2024-07-29 11:09:12.3045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR35" started.
+2024-07-29 11:09:12.3045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKMTHCR34" received FIN.
+2024-07-29 11:09:12.3045|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKMTHCR35" received FIN.
+2024-07-29 11:09:12.3219|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 11:09:12.3219|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-29 11:09:12.3370|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR34" stopped.
+2024-07-29 11:09:12.3370|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR35" stopped.
+2024-07-29 11:09:12.3370|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKMTHCR34" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 11:09:12.3370|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN5FKMTHCR35" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-29 11:09:12.7365|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR36" accepted.
+2024-07-29 11:09:12.7365|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN5FKMTHCR36" started.
+2024-07-29 11:09:12.7778|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN5FKMTHCR36 established using the following protocol: Tls13
+2024-07-29 11:09:12.8472|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/index.html - - -
+2024-07-29 11:09:12.9448|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-07-29 11:09:12.9632|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-07-29 11:09:12.9632|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 11:09:13.0226|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-07-29 11:09:13.0226|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-07-29 11:09:13.0226|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-07-29 11:09:13.0371|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-07-29 11:09:13.0371|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/index.html - 200 - text/html;charset=utf-8 197.1953ms
+2024-07-29 11:09:13.0623|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - - -
+2024-07-29 11:09:13.0686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript;+charset=utf-8 6.1989ms
+2024-07-29 11:09:13.0686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/_vs/browserLink - - -
+2024-07-29 11:09:13.1145|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 44.3340ms
+2024-07-29 11:09:13.1607|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - - -
+2024-07-29 11:09:13.1607|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-29 11:09:13.1607|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-07-29 11:09:13.2295|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 68.8446ms
+2024-07-29 11:09:22.8290|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/api/Message/messages - - -
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:09:22.8342|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:22.8342|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:09:22.8342|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:22.8498|INFO|MessageController|No messages found.
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:09:22.8498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-29 11:09:22.8498|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-07-29 11:09:22.8498|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.GetAllMessages (webAPI-SwiftMT799) in 6.2266ms
+2024-07-29 11:09:22.8498|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:22.8498|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/api/Message/messages - 404 - text/plain;+charset=utf-8 29.6549ms
+2024-07-29 11:09:35.9441|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------39468302684053470483483749579 919
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/upload'
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)' with route pattern 'api/Message/upload' is valid for the request path '/api/Message/upload'
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:09:35.9441|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 11:09:35.9441|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ConsumesAttribute
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:35.9441|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKMTHCR36", Request id "0HN5FKMTHCR36:00000019": started reading request body.
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKMTHCR36", Request id "0HN5FKMTHCR36:00000019": done reading request body.
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 11:09:35.9596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 11:09:35.9596|INFO|MessageController|File content read successfully.
+2024-07-29 11:09:35.9987|INFO|MessageController|Message saved successfully.
+2024-07-29 11:09:35.9987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:09:35.9987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:09:35.9987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:09:35.9987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:09:35.9987|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-29 11:09:35.9987|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 11:09:35.9987|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 46.9147ms
+2024-07-29 11:09:35.9987|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 11:09:35.9987|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 56.2923ms
+2024-07-29 11:09:40.2543|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/api/Message/messages - - -
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:09:40.2543|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:40.2543|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:40.2543|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:40.2590|INFO|MessageController|All messages have been sent successfully.
+2024-07-29 11:09:40.2590|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:09:40.2590|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:09:40.2590|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:09:40.2590|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:09:40.2590|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-29 11:09:40.2590|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MessageController+MessageEntity, webAPI-SwiftMT799, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-29 11:09:40.2590|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.GetAllMessages (webAPI-SwiftMT799) in 10.3614ms
+2024-07-29 11:09:40.2590|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:40.2590|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/api/Message/messages - 200 - application/json;+charset=utf-8 12.0239ms
+2024-07-29 11:09:48.5919|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7113/api/Message/upload - multipart/form-data;+boundary=---------------------------5936592763960409413946043386 917
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/upload'
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)' with route pattern 'api/Message/upload' is valid for the request path '/api/Message/upload'
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:09:48.5919|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 11:09:48.5919|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "UploadMessage", controller = "Message"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadMessage(Microsoft.AspNetCore.Http.IFormFile) on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ConsumesAttribute
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKMTHCR36", Request id "0HN5FKMTHCR36:0000001D": started reading request body.
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN5FKMTHCR36", Request id "0HN5FKMTHCR36:0000001D": done reading request body.
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'file' in request data ...
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile' ...
+2024-07-29 11:09:48.5919|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'file' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-07-29 11:09:48.5919|INFO|MessageController|File content read successfully.
+2024-07-29 11:09:48.6032|INFO|MessageController|Message saved successfully.
+2024-07-29 11:09:48.6032|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:09:48.6032|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:09:48.6032|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:09:48.6032|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:09:48.6032|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-07-29 11:09:48.6032|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.String'.
+2024-07-29 11:09:48.6032|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.UploadMessage (webAPI-SwiftMT799) in 11.0545ms
+2024-07-29 11:09:48.6032|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.UploadMessage (webAPI-SwiftMT799)'
+2024-07-29 11:09:48.6032|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7113/api/Message/upload - 200 - text/plain;+charset=utf-8 12.4782ms
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7113/api/Message/messages - - -
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Message/messages'
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)' with route pattern 'api/Message/messages' is valid for the request path '/api/Message/messages'
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAllMessages", controller = "Message"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllMessages() on controller MessageController (webAPI-SwiftMT799).
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MessageController (webAPI-SwiftMT799)
+2024-07-29 11:09:51.6689|INFO|MessageController|All messages have been sent successfully.
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-07-29 11:09:51.6689|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MessageController+MessageEntity, webAPI-SwiftMT799, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MessageController.GetAllMessages (webAPI-SwiftMT799) in 0.9631ms
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MessageController.GetAllMessages (webAPI-SwiftMT799)'
+2024-07-29 11:09:51.6689|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7113/api/Message/messages - 200 - application/json;+charset=utf-8 2.3547ms
