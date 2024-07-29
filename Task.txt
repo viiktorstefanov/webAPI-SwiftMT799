@@ -1,12 +1,12 @@
-Трябва да се изгради web api на .net 8, приемащо файл със съобщение Swift MT799.
+You need to build a web API using .NET 8 that accepts a file containing a Swift MT799 message.
 
-WebApi услугата трябва да може да прочете изпратеното му съобщение и да запише полетата от съобщенията в база данни.
+The WebApi service should be able to read the incoming message and store the fields from the message into a database.
 
-Допълнителни параметри:
+Additional parameters:
 
-    Не използвайте готова библиотека за swift съобщения.
-    Трябва да има документация на webapi-то, което да позволява тестване.
-    Без Authorization&Authentication.
-    База данни SQLite.
-    Комуникацията с SQLite да се изгради без EntityFramework
-    Логване чрез библиотека (Nlog or other..)
+    Do not use a pre-built library for Swift messages.
+    The WebApi should include documentation that allows for testing.
+    No Authorization & Authentication required.
+    Use SQLite for the database.
+    Communication with SQLite should be built without Entity Framework.
+    Logging should be implemented using a library (NLog or another).
